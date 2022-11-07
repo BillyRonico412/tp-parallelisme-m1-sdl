@@ -1,0 +1,7 @@
+MPI.COMM_WORLD: Recupere l'objet permettant la communication
+GetRank(): Avoir num process
+send(data, dest=, tag=): Envoie de donnée
+recv(source=, tag=): Reception de donnée
+isend(data, dest=, tag=): Envoi non bloquant
+irecv(source=, tag=): Reception non bloquant
+wait: attendre la reception ou l'envoi d'une valeur isend, irecv
